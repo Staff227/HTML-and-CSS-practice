@@ -1,0 +1,27 @@
+.nav_containor{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: 2px solid blueviolet;
+   
+    
+}
+.nav_containor > div{
+    padding: 5px;
+    
+    
+
+}
+.home{
+    background-color: red;
+    
+}
+.sign{
+    background-color: yellow;
+}
+.about{
+    background-color: green;
+}
+body, html{
+    height: 100%
+}
