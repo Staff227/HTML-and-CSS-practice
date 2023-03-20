@@ -1,0 +1,23 @@
+.containor{
+    display: flex;
+    justify-content: center;
+
+    
+    border: 2px solid rgb(11, 11, 11);
+}
+.containor > div{
+    padding: 5px;
+}
+.home{
+    background-color: aqua;
+    order: 1;
+
+}
+.logout{
+    background-color: blue;
+    order: ;
+}
+.search{
+    background-color: rgb(212, 255, 0);
+    order: -1;
+}

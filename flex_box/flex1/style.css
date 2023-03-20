@@ -1,182 +1,68 @@
 .div_containor{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    
-    
-    width: 100%;
-    height: 100%;
+    justify-content: space-between; 
     flex-wrap: wrap;
     box-shadow: 10px grey;
+    height: 100%;
+    width: 100%; 
+}
+.nav_containor{
+    display: flex;
+    border: 2px solid aqua;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.nav_containor > div {
+    padding: 5px;
+    background-color: aqua;
+    flex: ;  
+}
+.nav_containor > #image{
+    justify-content: flex-end;
+    align-items: end;    
+}
+#home{
+    align-self: flex-start;
+}
+#sign{
     
-   
-  
 }
 body{
-    background-color: #101010;
-    background-size: auto;
-    background-attachment: fixed;
+    background-color: #f9f3f3;
+   
 }
-.div_containor > div{
-    padding: 5px;
-    box-shadow: 2px 2px 2px #f1ebeb;
-    color: #010101;
-    flex: auto;
-    flex-grow: auto;
+.div_containor > div > img{
+    width: 100%;
+    height: 100%;
     
+    box-shadow: 2px 2px 2px #494141;
+    color: #010101;
+    object-fit: cover;
+        
 }
 body, html{
     height: 100%;
+    width: 100%;
+  
 }
-#num1{
-    background-color: aqua;
-    
-    height: 200px;
-    width:  200px;
-    margin: 20px;
-    background-image: url("images/car.webp");
-    background-size: cover;
-    
-    text-align: ; 
-    
+.div_containor > div{
+    flex: 1 1 200px;
+    padding: 1px;
+    margin: 10px;
 }
-
-#num1{
-   
-    height: 200px;
-    width: 200px;
-    margin: 20px;
+.div_containor > .wideimg{
+    flex: 1 1 500px;
+}
+.div_containor > .tallimg{
+    flex: 1 1 300px;
+}
+.normalimg{
 
 }
-#num2{
-    background-color: aquamarine;
-    
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    background-image: url("images/car4.jpeg");
-    background-position: center;
-    background-size: cover;
+#car5{
+    order: 1;
 }
-#num3{
-    background-color: blue;
-    
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    background-position: center;
-    background-size: cover;
-    
-    background-image: url("images/car3.webp");
-}
-#num4{
-    background-color: rgb(255, 0, 242);
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    background-image: url("images/car2.jpeg");
-    background-position: center;
-    background-size: cover;
-    
-}
-#num5{
-    background-color: rgb(255, 0, 242);
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    background-image: url("images/car5.jpeg");
-    background-position: center;
-    background-size: cover;
-    
-}
-#num6{
-    background-color: rgb(255, 0, 242);
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    background-image: url("images/car6.jpeg");
-    background-position: center;
-    background-size: cover;
-    
-}
-#num7{
-    background-color: rgb(255, 0, 242);
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    background-image: url("images/car7.jpeg");
-    background-position: center;
-    background-size: cover;
-    
-}
-#num8{
-    background-color: rgb(255, 0, 242);
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    background-image: url("images/car8.jpeg");
-    background-position: center;
-    background-size: cover;
-    
-}
-#num9{
-    background-color: rgb(255, 0, 242);
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    background-image: url("images/car9.jpeg");
-    background-position: center;
-    background-size: cover;
-    
-}
-#num10{
-    background-color: rgb(255, 0, 242);
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    background-image: url("images/car10.jpeg");
-    background-position: center;
-    background-size: cover;
-    
-}
-#num11{
-    background-color: rgb(255, 0, 242);
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    background-image: url("images/car11.jpeg");
-    background-position: center;
-    background-size: cover;
-    
-}
-#num12{
-    background-color: rgb(255, 0, 242);
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    background-image: url("images/car12.jpeg");
-    background-position: center;
-    background-size: cover;
-    
-}
-#num13{
-    background-color: rgb(255, 0, 242);
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    background-image: url("images/car13.jpeg");
-    background-position: center;
-    background-size: cover;
-    
-}
-#num14{
-    background-color: rgb(255, 0, 242);
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    background-image: url("images/car14.jpeg");
-    background-position: center;
-    background-size: cover;
-    
-    
+body{
+    background-color: #fcfafa;
 }

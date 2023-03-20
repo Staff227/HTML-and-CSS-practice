@@ -1,7 +1,7 @@
 .nav_containor{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     border: 2px solid blueviolet;
    
     
@@ -14,13 +14,15 @@
 }
 .home{
     background-color: red;
-    
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 200px;
 }
-.sign{
+.logout{
     background-color: yellow;
-}
-.about{
-    background-color: green;
+    flex-grow: 0;
+    flex-shrink: 10;
+    flex-basis: 200px;
 }
 body, html{
     height: 100%
