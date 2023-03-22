@@ -9,13 +9,13 @@
 }
 .nav_containor{
     display: flex;
-    border: 2px solid aqua;
+    border: 2px solid #5e899a;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
 .nav_containor > div {
     padding: 5px;
-    background-color: aqua;
+    background-color: #5e899a;
     flex: ;  
 }
 .nav_containor > #image{
