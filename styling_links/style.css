@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+        font-size: 1.5rem;
+   
+}
+a{ 
+    color: blue;
+        text-decoration: none;
+}
+
+    .underlined > a{
+        text-decoration: underline;
+}
+
+    .visit > a:visited{
+        color: brown;
+}
+    .Hover > a:hover{
+        color: aqua;
+}
+    .active_link > a:active{
+        color: yellow;
+    }
+    .focused > a:focus{
+        color: pink;
+}
+    .cursor > a{
+        cursor: crosshair;
+    }
+
