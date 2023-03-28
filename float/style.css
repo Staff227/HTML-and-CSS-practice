@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: ;
+    box-sizing: border-box;
+}
+.float_left{
+    border: 2px solid blue;
+    background-color: black;
+    float: left;
+    margin-right: 10px;
+}
+.float_right{
+    border: 2px solid rgb(14, 247, 235);
+    background-color: rgb(241, 5, 5);
+    float: right;
+    margin-right: 10px;
+}

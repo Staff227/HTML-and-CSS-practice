@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+header{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-size: 0.9rem;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-size: 1.2rem;
+    background-color: #000;
+}
+/* this targets the overall list element */
+.nav_list{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    position: fixed;
+    border: 3px solid white;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: -7;
+    
+}
+
+/* this targets the individual list items */
+
+nav > .nav_list > li{
+    padding: 5px;
+    list-style-type: none;
+    margin-top: 0px;
+}
+ul > .logo > img{
+    height: 30px;
+    
+    border: 1px solid rgb(255, 0, 0);
+}
+
+#try{
+    
+    margin-left: auto;
+    color: red;
+}
+
+#try > a:hover{
+    color: rgb(147, 99, 99);
+}
+#try > a{
+    color: red;
+}
+
+li > a{
+    color: black;
+    text-decoration: none;
+}
+li > a:hover{
+    color: rgb(74, 73, 73);
+    text-decoration: none;
+}
+.nav_list2{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style-type: none;
+    
+    position: fixed;
+    border: 3px solid white;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 25px;
+    padding-top: 10px;
+     
+}
+.nav_list2 > li > a{
+    padding: 5px;
+    
+}
+#jobs > a{
+    color: rgb(255, 0, 0);
+    
+}
+#jobs > a:hover{
+    color: rgb(183, 118, 118);
+    
+}
+.img_container{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.image0{
+    align-self: center;
+    
+    
+}
+.image0 > img{
+    
+    height: 650px;
+    border-left: 1px solid rgb(255, 0, 0);
+    border-right: 1px solid rgb(255, 0, 0);
+} 
+.bground{
+    align-self: center; 
+    
+    background-color: whitesmoke;
+    
+    width: 40%;
+} 
+.bground > p{
+    background-color: #000;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+    
+} 
+.norm{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.little{
+    color: hsla(0, 0%, 100%, 0.631);
+    text-align: center;
+    padding-top: 30sspx;
+    font-size: 0.7em;
+    padding-bottom: 30px;
+    
+}
+.container > div > p > a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+.container > div > p > a:hover{
+    color: rgb(168, 100, 100);
+}
+
+
+
