@@ -1,0 +1,51 @@
+
+.section1{
+    background-color: aqua;
+}
+
+.section2{
+    background-color: black;
+    color: white;
+}
+
+.section3{
+    background-color: yellow;
+    color: black;
+}
+
+.h11{
+    width: 100%;
+    
+
+    
+    background-color: aqua;
+    color: black;
+    border: 2px solid black;
+    font-size: 3em;
+    text-align: center;
+    position: fixed;
+    top: -40px;
+    z-index: 1;
+}
+.h22{
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    font-size: 3em;
+    text-align: center;
+    position: sticky;
+    top: 1px;
+}
+.h33{
+    background-color: black;
+    color: white;
+    border: 4px solid yellow;
+    font-size: 3em;
+    text-align: center;
+    position: sticky;
+    top: 1px;
+}
+.section1 > #firstp{
+    margin-top: 50px;
+    
+}

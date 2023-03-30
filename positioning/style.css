@@ -1,0 +1,60 @@
+body html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    color: rgb(12, 12, 12);
+}
+
+.outter_container{
+    border: 2px dashed white;
+    margin: 20px;
+    height: 200vh;
+    width: 90vw;
+    
+}
+
+.inner_container{
+    border: 3px solid yellow;
+    /* height: 600px;
+    width: 800px */
+    margin: 200px;
+}
+
+.absolute{
+    background-color: rgb(240, 114, 3);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 500px;
+    left: 930px;
+}
+
+.realative{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+}
+
+.sticky{
+    background-color: rgb(11, 177, 238);
+    height: 200px;
+    width: 200px;
+    position: sticky;
+    bottom: 290px;
+    z-index: 1;
+    
+}
+
+.fixed{
+    background-color: rgb(6, 241, 53);
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    bottom: 200px;
+    left: 500px;
+}
