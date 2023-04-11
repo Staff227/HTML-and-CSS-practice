@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243, 234, 234);
+    min-height: 100vh;
+}
+.container{
+    border: 2px dashed rgba(132, 120, 119, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   /*  grid-template-rows: minmax(200px, auto); */
+    grid-auto-rows: minmax(200px, auto);
+    gap: 15px;
+    
+
+}
+
+.box{
+    background-color: aqua;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.box1{
+    background-color: red;
+    color: rgb(0, 0, 0);
+    
+}
+.box2{
+    background-color: aqua;
+    color: black;
+    
+}
+.box3{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    
+}
+.box4{
+    background-color: green;
+    color: rgb(0, 0, 0);
+    
+}
+.box5{
+    background-color: blue;
+    color: white;
+    
+}
+.box6{
+    background-color: indigo;
+    color: white;
+    
+}

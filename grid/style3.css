@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: white; 
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border: 2px solid white;
+    font-size: 3em;
+    text-align: center;
+    margin: 20px;
+
+
+    grid-template-areas: 
+    "he he he he he he"
+    "s1 s1 s1 s1 s1 as"
+    "s2 s2 s2 s2 s2 as"
+    "s3 s3 s3 s3 s3 as"
+    "fo fo fo fo fo fo";
+    
+}
+
+.one{
+    background-color: aqua;
+    color: black;
+    grid-area: he;
+    
+}
+
+.two{
+    background-color: yellow;
+    color: black;
+    grid-area: s1;
+}
+
+.three{
+    grid-area: s2;
+
+}
+
+.four{
+    background-color: red;
+    color: black;
+    grid-area: s3;
+}
+
+.five{
+    background-color: rgb(61, 60, 59);
+    grid-area: as;
+}
+
+.six{
+    background-color: green;
+    color: black;
+    grid-area: fo;
+}
