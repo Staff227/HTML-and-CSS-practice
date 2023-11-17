@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+}
+
+.wrapper{
+   margin-bottom: 30PX;
+}
+
+.img_wrapper{
+    display: inline-block;
+   
+}
+
+.img{
+    width: 120px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 60px;
+}
+
+.text_wrapper{
+    display: inline-block;
+    
+    vertical-align: top;
+    padding-right: 150px;
+
+
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.name{
+    font-weight: bold;
+    padding: 10px 5px 0px 5px;
+}
+
+.tittle{
+    font-size: 1.3rem;
+    padding: 5px;
+    color: rgb(37, 37, 37);
+}
+
+.status{
+    font-size: 1.1rem;
+    padding: 5px 5px 0px 5px;
+    color: rgb(39, 39, 39);
+}
+
+
+.follow_wrapper{
+    display: inline-block; 
+    vertical-align:top;
+}
+
+
+.follow{
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 35px;
+    background-color: rgb(7, 85, 188);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+ 

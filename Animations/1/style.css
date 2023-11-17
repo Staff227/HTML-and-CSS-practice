@@ -1,0 +1,19 @@
+body{
+    font-size: 2em;
+}
+
+p{
+  background-color: black;
+  color: white;
+}
+    
+
+p:hover{
+    
+  transition: all 0.2s;
+  font-size: 4rem;
+  /* transition-duration: 2s;
+  font-size: 5rem;
+  transition-timing-function: ease-in;  
+     */
+}

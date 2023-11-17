@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position-Relative-&-Absolute</title>
+    <link rel="stylesheet" href="position-relative-&-absolute.css" />
+  </head>
+  <body>
+    <div
+      style="
+        width: 320px;
+        height: 180px;
+        background-color: rgba(0, 0, 0, 0.716);
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+      "
+    >
+      <div
+        style="
+          position: absolute;
+          top: -20px;
+          left: -20px;
+          background-color: black;
+          font-size: 2rem;
+          color: white;
+          padding: 3px 10px 3px 10px;
+          border-radius: 50%;
+        "
+      >
+        X
+      </div>
+      <div
+        style="
+          position: absolute;
+          background-color: black;
+          color: white;
+          bottom: 10px;
+          right: 10px;
+          padding: 5px;
+        "
+      >
+        0:29
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center">
+      <div style="position: relative">
+        <img src="../img/brown.jpg" alt="" style="width: 500px" />
+        <div
+          style="
+            background-color: black;
+            color: white;
+            position: absolute;
+            top: 10px;
+            right: 0%;
+            padding: 10px;
+          "
+        >
+          20% OFF
+        </div>
+        <div
+          style="
+            background-color: #ffffff7c;
+            position: absolute;
+            bottom: 0px;
+            top: 60%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <button
+            style="
+              font-size: 1.2rem;
+              padding: 10px;
+              border: none;
+              border: 1px solid black;
+            "
+          >
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    
+    font-size: 1.4rem
+    
+}
+
+.header{
+    width: 63%;
+    margin: 10px 10px 10px 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.views{
+    width: 63%;
+    margin: 10px 10px 30px 10px; 
+    color: rgb(70, 70, 70);
+}
+
+.name{
+    width: 63%;
+    margin: 10px 10px 30px 10px;
+}
+
+.body{
+    width: 63%;
+    margin: 10px 10px 30px 10px;
+    line-height: 30px;
+}
+
+.shop{
+    padding: 30px 50px 30px 50px;
+    width: 100%;
+    color: aliceblue;
+    background-color: red;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.shop a{
+    width: 100%;
+    color: aliceblue;
+    text-decoration: none;
+}
+.shop a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+    
+}

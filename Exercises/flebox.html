@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="flexbox.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <span class="text">Home</span><span class="notifications">14</span>
+      </div>
+      <div>
+        <span class="text">Notification</span
+        ><span class="notifications">3</span>
+      </div>
+      <div>
+        <span class="text">Messages</span><span class="notifications">5</span>
+      </div>
+    </div>
+    <div class="nav_container">
+      <div class="nav_left">Home</div>
+      <div class="nav_center"><input type="text" placeholder="Search" /></div>
+      <div class="nav_right"><button>Download</button></div>
+    </div>
+    <div
+      style="
+        width: fit-content;
+        margin-bottom: 100px;
+        margin-left: 20px;
+        box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.427);
+        padding: 20px;
+      "
+    >
+      <p style="padding: 0px 0px 20px 0px; color: #656565">ALL INBOXES</p>
+      <div style="display: flex; justify-content: start; align-items: center">
+        <div>
+          <img
+            src="../img/profile.png"
+            alt=""
+            style="width: 100px; border-radius: 50px; margin-right: 10px"
+          />
+        </div>
+        <div style="display: flex; flex-direction: column">
+          <div style="display: flex; justify-content: space-between">
+            <p style="padding: 8px; font-weight: bold; font-size: 1.3rem">
+              Chewy Promotions
+            </p>
+            <p style="padding: 8px; color: #656565">4:58 PM</p>
+          </div>
+
+          <p style="padding: 8px; font-weight: bold; font-size: 1.3rem">
+            Biggest saales of the year!
+          </p>
+          <p style="padding: 8px">
+            Hey there! we are writing to tell you about our...
+          </p>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex">
+      <div>
+        <img
+          src="../img/profile.png"
+          alt=""
+          style="width: 70px; border-radius: 50px; margin-right: 20px"
+        />
+      </div>
+      <div>
+        <div style="display: flex">
+          <p style="font-weight: 900; font-size: 1rem; margin-right: 10px">
+            staff227
+          </p>
+          <p style="color: #656565; margin-bottom: 10px">@mustafa2277</p>
+        </div>
+        <div>
+          <p style="width: 70%; margin-bottom: 15px">
+            What is backend web development? A complete overview. new video is
+            up!
+          </p>
+        </div>
+
+        <div
+          style="
+            width: 68%;
+            display: flex;
+            border: 2px solid #a6a5a5;
+            border-left: none;
+            border-radius: 10px 10px 10px 10px;
+          "
+        >
+          <div
+            style="
+              width: 80px;
+              background-color: #a6a5a5;
+              margin-right: 10px;
+              border-radius: 10px 0px 0px 10px;
+            "
+          ></div>
+          <div style="display: flex; flex-direction: column">
+            <p
+              style="
+                color: #656565;
+                padding: 10px 0px 10px 0px;
+                width: fit-content;
+              "
+            >
+              youtube.com
+            </p>
+            <p style="width: 70%; padding-bottom: 10px">
+              Backend web development - a complete overview (2021)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
